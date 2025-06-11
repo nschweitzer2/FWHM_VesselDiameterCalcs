@@ -46,6 +46,9 @@ for i = 1:length(finder)
 end
 
 %% Extract border points (interaction between two sets of pixels)
+finder_x = find(branchpointsImg); % branchpoints linear indices
+finder_im2 = find(im2 > 0);       % voxels in branch diameter map
+
 borders = [];
 for i = 1:length(CC_branchpoints.PixelIdxList)
     members = ismember(finder_x, CC_branchpoints.PixelIdxList{i});
