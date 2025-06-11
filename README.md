@@ -1,5 +1,7 @@
 # FWHM_VesselDiameterCalcs
 
+If you want to run example data, please contact me for example data
+
 Code to calculate diameter based on FWHM of skeleton cross section adapted from following repository:
 https://github.com/optobrain/adp-1-3xtg-cortex
 
